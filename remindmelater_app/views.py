@@ -23,6 +23,4 @@ class ReminderListCreateAPIView(ListCreateAPIView):
                 {"status": "Reminder created successfully"},
                 status=status.HTTP_201_CREATED,
             )
-
-        # If form is not valid, return the form errors
         return Response(form.errors, status=status.HTTP_400_BAD_REQUEST)
