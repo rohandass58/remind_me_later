@@ -1,2 +1,5 @@
 /home/rohan/remind_me_later_project/venv
 venv
+remindmelater_app/migrations/__pycache__/
+remindmelater_app/__pycache__/
+remind_me_later_project/__pycache__/
